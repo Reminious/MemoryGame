@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="10dp"/>
+    <solid android:color="@color/progress_bar_empty"/><!-- this is the background color, used to fill the empty progress bar -->
+</shape>

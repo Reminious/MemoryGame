@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dp" />
+            <solid android:color="@color/progress_bar_empty" />
+        </shape><!-- this is used to fill the empty progress bar -->
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dp" />
+                <solid android:color="@color/progress_bar_filled" />
+            </shape><!-- this is used to fill the progress bar -->
+        </clip>
+    </item>
+</layer-list>
